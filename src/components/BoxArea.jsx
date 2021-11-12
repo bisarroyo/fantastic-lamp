@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Box = styled.div`
-  width: ${props => props.size || '90%'};
+  width: ${props => props.size};
   min-height: 100px;
   height: auto;
   text-align: center;
@@ -11,8 +11,7 @@ const Box = styled.div`
 `;
 
 const BoxArea = (props) => {
-  const { backgroundColor, size } = props;
-  const { text } = props;
+  const { backgroundColor, size, text } = props;
   return (
     <Box backgroundColor={backgroundColor} size={size}>{text}</Box>
   );

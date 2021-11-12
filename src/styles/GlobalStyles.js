@@ -9,6 +9,8 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     background: linear-gradient(#ffffff, #2a9d8f66);
+    max-width: 1600px;
+    margin: 0 auto;
   }
 `;
 
