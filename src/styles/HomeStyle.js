@@ -1,5 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
+<<<<<<< HEAD
 const HomeStyle = styled.div`
   .home-container {
     display: flex;
@@ -32,5 +33,8 @@ const HomeStyle = styled.div`
       margin: 10px;
   }
 `;
+=======
+const HomeStyle = styled.div``;
+>>>>>>> 88338ec9339a753c5056a08521c8fb893c936ab2
 
 export default HomeStyle;

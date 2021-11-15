@@ -14,11 +14,7 @@ const Home = () => {
       <TextArea />
       <ButtonPrimary text="Start" />
       <ButtonSecondary text="logout" />
-      <BoxArea
-        backgroundColor="#ac3"
-        text="hola, esto es una prueba de formato"
-        size="100px"
-      />
+      <BoxArea backgroundColor="#ac3" text="hola, esto es una prueba" />
       <BoxArea backgroundColor="#acf" text="hola, esto es una prueba" />
       <BoxArea backgroundColor="#fca" text="hola, esto es una prueba" />
       <BoxArea backgroundColor="#aaa" text="hola, esto es una prueba" />
@@ -27,5 +23,7 @@ const Home = () => {
     </div>
   );
 };
+
+export default Home;
 
 export default Home;
