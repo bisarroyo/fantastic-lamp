@@ -23,7 +23,7 @@ const Box = styled.div`
   }
 
   @media (min-width: 768px) {
-    width: 360px;
+    width: 345px;
   }
 `;
 
@@ -32,7 +32,7 @@ const BoxArea = (props) => {
   return (
     <Box backgroundColor={backgroundColor}>
       <div className='box_text'>
-        <h2>{tittle}</h2>
+        <h3>{tittle}</h3>
         <p>{text}</p>
       </div>
       <div className='box_icon'>
